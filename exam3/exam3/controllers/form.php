@@ -7,8 +7,7 @@
               'login' => 'admin',
               'password' => 'password',
           ],       
-     ];
-        
+     ];        
   foreach ($users as $user) {
     if (($_POST['password'] == $user['password']) && ($_POST['pseudo'] == $user['login']))
     {

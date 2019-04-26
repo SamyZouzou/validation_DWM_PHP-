@@ -3,7 +3,6 @@
 include './templates/footer.html';
 include './templates/header.html';
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,10 +15,17 @@ include './templates/header.html';
 <body>
   <h1>Gestion des modules</h1>
   <form action="index.php" method="GET">
-    <input type="checkbox" name="module1" value="1"> TEXT <br>
-    <input type="checkbox" name="module2" value="2"> VIDEO <br>
-    <input type="checkbox" name="module3" value="3"> IMAGE <br>
-    <input type="submit" value="Submit">
+  <label class="container">TEXT 
+    <input type="checkbox" name="module1" value="1">
+      <span class="checkmark"></span>
+  <label class="container">VIDEO
+    <input type="checkbox" name="module2" value="2">
+      <span class="checkmark"></span>
+  <label class="container">IMAGE
+    <input type="checkbox" name="module3" value="3">
+      <span class="checkmark"></span>
+  <input type="submit" value="Submit">
+  <span class="checkmark"></span>
   </form>
 </body>
 </html>

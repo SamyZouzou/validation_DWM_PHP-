@@ -1,10 +1,10 @@
 <?php
+error_reporting(0);
 include './templates/footer.html';
 include './templates/header.html';
 include './controllers/check.php';
 session_start();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,6 +15,5 @@ session_start();
   <title>Php_my_website</title>
 </head>
 <body>
-  
-  </body>
+</body>
 </html>
